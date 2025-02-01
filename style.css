@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400;700&family=Cairo:wght@200..1000&family=Oswald:wght@200..700&display=swap");
 :root {
-    --iti-color: #bf272d;
-  }
+  --iti-color: #bf272d;
+}
 * {
   margin: 0;
   padding: 0;
@@ -46,8 +46,7 @@ h1 {
   font-style: normal;
   margin-bottom: 2rem;
 }
-section { 
-
+section {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
@@ -64,22 +63,24 @@ footer {
 }
 
 footer div {
- width: 17%;
- margin: 1rem;
+  width: 17%;
+  height: 100%; 
+  margin: 1rem;
   margin-bottom: 1rem;
   border-radius: 1rem;
-  box-shadow: .5px 0.5px 10px rgba(0, 0, 0, 0.5);
+  /* box-shadow: 0.5px 0.5px 10px rgba(0, 0, 0, 0.5); */
 }
 .image-link {
+  width: 100%;
   height: 100%;
+  object-fit: contain ; 
 }
 
-
 @media only screen and (max-width: 600px) {
-    html {
-      font-size: 13px;
-    }
-    .container {
-      width: 90%;
-    }
+  html {
+    font-size: 13px;
   }
+  .container {
+    width: 95%;
+  }
+}
