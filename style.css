@@ -25,14 +25,17 @@ img {
   margin-right: auto;
 }
 nav {
-  height: 12%;
+  margin-top: 2rem;
+  height: 20%;
   width: 100%;
   display: flex;
+  flex-direction: column;
+  align-items: center;
   flex-wrap: nowrap;
-  justify-content: space-between;
+  justify-content: center;
 }
 .nav-img {
-  width: 10rem;
+  width: 12rem;
 }
 p {
   font-family: "Cairo", serif;
@@ -46,6 +49,10 @@ h1 {
   font-style: normal;
   margin-bottom: 2rem;
 }
+.people{
+  color:var(--iti-color);
+  font-family: "Oswald", serif;
+}
 section {
   display: flex;
   flex-direction: column;
@@ -53,7 +60,7 @@ section {
   justify-content: center;
   align-items: center;
   text-align: center;
-  height: 65%;
+  height: 55%;
   width: 100%;
 }
 footer {
